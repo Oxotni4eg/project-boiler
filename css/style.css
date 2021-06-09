@@ -18,6 +18,10 @@ body {
     height: 85px;
 }
 
+.padding {
+    padding: 70px 0;
+}
+
 ul {
     list-style: none;
 }
@@ -106,3 +110,32 @@ a:hover {
     padding-bottom: 2px;
     border-bottom: 1px solid #E7505B;
 }
+
+.nav {
+    background-image: url(../img/bcg1.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-y: center;
+}
+
+.nav .container {    
+    border-bottom: 2px solid #E0E6EE;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul li a {
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 35px;    
+}
+
+.nav ul li:hover {
+    box-shadow: 0 0 10px #2A92D3;
+    
+}
+
