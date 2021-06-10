@@ -226,3 +226,30 @@ a:hover {
     line-height: 126%;
     max-width: 300px;
 }
+
+.about-company .wrapper-90 {
+    width: 90%;
+    margin: 0 auto;
+    background: #071B28;
+    box-shadow: 0px 4px 89px 23px rgba(0, 0, 0, 0.05);    
+}
+
+.about-company h3,
+.about-company p {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.about-company h3 {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 46px;    
+    padding-left: 35px;
+    border-left: 1px solid #D7251D;    
+}
+
+.about-company p {
+    font-size: 24px;
+    line-height: 29px;
+}
+
