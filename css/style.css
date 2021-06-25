@@ -174,7 +174,7 @@ a:hover {
     margin-bottom: 75px;
 }
 
-.promo .transition-catalog {
+.transition-catalog {
     display: inline-block;
     padding: 25px 75px;
     color: white;    
@@ -183,7 +183,7 @@ a:hover {
     cursor: pointer;
 }
 
-.promo .transition-catalog:hover {
+.transition-catalog:hover {
     background: #0A5078;
     box-shadow: 0px 0px 39px -1px rgba(42, 146, 211, 0.5);
 }
@@ -227,6 +227,10 @@ a:hover {
     max-width: 300px;
 }
 
+.about-company {
+    padding-bottom: 70px;
+}
+
 .about-company .wrapper-90 {
     position: relative;
     width: 90%;
@@ -263,3 +267,19 @@ a:hover {
     color: #2A92D3;
 }
 
+.about-company a::after {
+    content: '\2192';
+    font-size: 26px;    
+    padding-left: 30px;
+}
+
+.our-products h3 {
+    color: #092D43;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: center;
+}
+
+.our-products .transition {
+    text-align: center;
+}
