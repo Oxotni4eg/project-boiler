@@ -273,7 +273,8 @@ a:hover {
     padding-left: 30px;
 }
 
-.our-products h3 {
+.our-products h3,
+.quality h3 {
     color: #092D43;
     font-size: 40px;
     line-height: 53px;
@@ -283,3 +284,121 @@ a:hover {
 .our-products .transition {
     text-align: center;
 }
+
+.quality {
+    position: relative;
+}
+
+.quality h3 {
+    margin-bottom: 50px;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quality::before {
+    content: url(../img/image-3.png);
+    position: absolute; 
+    bottom: 0;    
+}
+
+.quality-list {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.quality-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.quality-list ul li {
+    width: calc(33.3% - 50px);    
+}
+
+.quality-list ul li:not(:nth-child(3)),
+.quality-list ul li:not(:nth-child(6)) {
+    padding-right: 50px;
+}
+
+.quality-list ul li:nth-child(1),
+.quality-list ul li:nth-child(2),
+.quality-list ul li:nth-child(3) {
+    margin-bottom: 100px;
+}
+
+.quality-list .square-red {
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.quality-list .item1 {
+    background-image: url(../img/relax.png);
+}
+
+.quality-list .item2 {
+    background-image: url(../img/Page.png);
+}
+
+.quality-list .item3 {
+    background-image: url(../img/company.png);
+}
+
+.quality-list .item4 {
+    background-image: url(../img/glyph.png);
+}
+
+.quality-list .item5 {
+    background-image: url(../img/hand.png);
+}
+
+.quality-list .item6 {
+    background-image: url(../img/wallet-filled-money-tool.png);
+}
+
+.quality-list p {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #092D43;
+}
+
+.request .container {
+    display: flex;
+    align-items: center;
+}
+
+.request h4 {
+    font-size: 30px;
+    line-height: 42px;
+    color: #092D43;
+    width: 60%;
+}
+
+.culculator-link .culc {
+    display: inline-block;
+    padding: 25px 75px;
+    color: white;    
+    background: linear-gradient(96.19deg, #2A92D3 0%, #44A6E3 100%);
+    box-shadow: 0px 0px 39px -1px rgba(42, 146, 211, 0.5);
+    cursor: pointer;
+    text-align: center;
+}
+
+.culculator-link .culc:hover {
+    background: #0A5078;
+    box-shadow: 0px 0px 39px -1px rgba(42, 146, 211, 0.5);
+}
+
+.culculator-link .culc-text {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+} 
+
