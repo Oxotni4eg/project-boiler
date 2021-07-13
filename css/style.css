@@ -419,7 +419,30 @@ a:hover {
     bottom: 0;
 }
 
-.advantages h3 {
+.advantages .container::after {
+    content: '';
+    display: block;
+    width: 124px;
+    height: 124px;
+    border: 1px solid #E0E6EE;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+}
+
+.advantages::after {
+    content: '';
+    display: block;
+    width: 124px;
+    height: 124px;
+    border: 1px solid #E0E6EE;
+    position: absolute;
+    right: 6%;
+    bottom: 3%;
+}
+
+.advantages h3,
+.trust-us h3 {
     font-size: 40px;
     line-height: 46px;
     color: #092D43;
@@ -493,4 +516,20 @@ a:hover {
     font-size: 20px;
     line-height: 23px;
 }
+
+.trust-us ul {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.trust-us ul li:not(:last-child) {
+    margin-right: 25px;
+}
+
+
+
 
