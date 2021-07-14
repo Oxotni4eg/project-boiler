@@ -442,7 +442,8 @@ a:hover {
 }
 
 .advantages h3,
-.trust-us h3 {
+.trust-us h3,
+.testimonials h3  {
     font-size: 40px;
     line-height: 46px;
     color: #092D43;
@@ -528,6 +529,10 @@ a:hover {
 
 .trust-us ul li:not(:last-child) {
     margin-right: 25px;
+}
+
+.testimonials .all-rew {
+    text-align: center;
 }
 
 
